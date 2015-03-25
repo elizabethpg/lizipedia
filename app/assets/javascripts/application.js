@@ -15,3 +15,18 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+
+$('Home').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('About').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('Articles').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
