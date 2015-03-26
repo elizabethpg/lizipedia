@@ -9,6 +9,10 @@ group :development do
   gem 'sqlite3'
 end
 
+
+
+gem 'pry'
+gem 'pundit'
 gem 'figaro', '1.0'
 gem 'devise'
 gem 'bootstrap-sass'
